@@ -17,10 +17,12 @@ TRACKINGMORE_API_KEY: Your TrackingMore API key. You can obtain your API key by 
 Please make sure to set these environment variables in your hosting environment or local development environment to ensure the proper functionality of the API.
 
 ## Endpoints
-** Track an Order
+* Track an Order
+
 Endpoint
 URL: /track
-** Request Format
+* Request Format
+
 Method: POST
 Content-Type: application/json
 Request Body
