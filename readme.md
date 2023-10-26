@@ -17,12 +17,11 @@ TRACKINGMORE_API_KEY: Your TrackingMore API key. You can obtain your API key by 
 Please make sure to set these environment variables in your hosting environment or local development environment to ensure the proper functionality of the API.
 
 ## Endpoints
-* Track an Order
-
+### Track an Order
 Endpoint
 URL: /track
-* Request Format
 
+### Request Format
 Method: POST
 Content-Type: application/json
 Request Body
@@ -36,7 +35,7 @@ Example request body:
 }
 ```
 
-Response Format
+### Response Format
 Status Code 200: If the order is successfully tracked, you will receive a response with the tracking information in JSON format.
 Example response:
 ```
