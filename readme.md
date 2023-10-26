@@ -13,7 +13,7 @@ https://api.trackingmore.com/v4
 ## Authentication
 To use the Express Tracking API, you need to set up environment variables. Here's what you need:
 
-TRACKINGMORE_API_KEY: Your TrackingMore API key. You can obtain your API key by signing up on the TrackingMore website.
+**TRACKINGMORE_API_KEY**: Your TrackingMore API key. You can obtain your API key by signing up on the TrackingMore website.
 Please make sure to set these environment variables in your hosting environment or local development environment to ensure the proper functionality of the API.
 
 ## Endpoints
@@ -27,7 +27,7 @@ Content-Type: application/json
 Request Body
 The request body should be a JSON object with the following field:
 
-orderNumber: The unique order number or shipment identifier you want to track.
+**orderNumber**: The unique order number or shipment identifier you want to track.
 Example request body:
 ```
 {
@@ -36,7 +36,7 @@ Example request body:
 ```
 
 ### Response Format
-Status Code 200: If the order is successfully tracked, you will receive a response with the tracking information in JSON format.
+**Status Code 200**: If the order is successfully tracked, you will receive a response with the tracking information in JSON format.
 Example response:
 ```
 {
@@ -61,7 +61,7 @@ Example response:
     }
 }
 ```
-Status Code 400: If there are errors in the request, you will receive a response with an error message.
+**Status Code 400**: If there are errors in the request, you will receive a response with an error message.
 Example response:
 ```
 {
@@ -75,7 +75,7 @@ Example response:
 ## Environment Variables
 Before using the Express Tracking API, make sure to set the required environment variable:
 
-TRACKINGMORE_API_KEY: Your TrackingMore API key.
+**TRACKINGMORE_API_KEY**: Your TrackingMore API key.
 You can set environment variables in various ways, depending on your development and hosting environment. Ensure that this environment variable is correctly set for the API to function properly.
 
 
